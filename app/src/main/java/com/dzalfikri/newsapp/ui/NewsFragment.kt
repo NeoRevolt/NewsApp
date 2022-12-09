@@ -30,6 +30,7 @@ class NewsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         tabName = arguments?.getString(ARG_TAB)
 
         val factory: ViewModelFactory = ViewModelFactory.getInstance(requireActivity())
